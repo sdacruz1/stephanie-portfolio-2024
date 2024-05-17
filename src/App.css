@@ -1,38 +1,150 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: left;
+  margin: 0;
+  font-family:sans-serif;
+  background-color: #101634;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* MAIN APP */
+
+p {
+  font-size: 16px;
+  font-weight: 200;
+  color: white;
+}
+
+h1 {
+  font-size: 48px;
+  color: white;
+}
+
+h2 {
+  color: white;
+  margin: 1rem 0rem;
+}
+
+.readme_text {
+  font-weight: 400;
+  margin-bottom: 4rem;
+  margin-right: 10vw;
+}
+
+.skill_bubble {
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 2px solid #DEEBEE;
+  border-radius: 5px;
+  min-width: 5%;
+  text-align: center;
+}
+
+.skill_bubble:hover {
+  background-color: #93BDFC;
+  transition: 0.2s;
+}
+
+.skill_text {
+  margin: 0;
+}
+
+.problem_div {
+  height: 60vh;
+  border: 2px dashed white;
+  padding: 1rem;
+}
+
+.vertical_scroller {
+  height: 100%;
+  overflow-y: scroll;
+  margin: 1rem;
+}
+
+.image-container {
+  padding: 10px; /* Add padding for spacing between images */
+  min-width: 20vh;
+}
+
+.image-container img {
+  display: block;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+/* HEADER */
+.App-header {
+  text-align: center;
+  margin: 0;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to left, #93A4FC, #101634);
+}
+
+.header-text-box {
+  padding: 5% 0% 5% 15%;
+}
+
+.header-text {
+  color: white;
+  font-size: 24px;
+}
+
+.header-sub-text {
+  color: #93A4FC;
+  font-size: 20px;
+}
+
+
+/* EXPERIENCE BUBBLES */
+
+.experience_bubble {
+  height: auto;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+
+.experience_bubble:hover {
+  background-color: rgba(222, 235, 238, 0.2);
+  transition: 0.2s;
+  box-shadow: 0 4px 10px #93BDFC;
+}
+
+.focus {
+  background-color: rgba(222, 235, 238, 0.2);
+  box-shadow: 0 4px 10px #93BDFC;
+}
+
+.experience_workplace {
+  font-size: 20px;
+  color: white;
+}
+.experience_title {
+  font-size: 16px;
+  color: #93A4FC;
+  margin: 0;
+}
+.experience_duration {
+  font-size: 20px;
+  color: #93A4FC;
+}
+.experience_point_list {
+  margin: 1rem 0rem;
+}
+.experience_point {
+  font-size: 16px;
+  font-weight: 200;
+  color: #93BDFC;
+  margin-bottom: .5rem;
+}
+.experience_skills {
+  width: 100%;
+  text-align: right;
+  font-size: 16px;
+  color: #93A4FC;
 }
