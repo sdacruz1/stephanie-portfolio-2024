@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/stephanie-portfolio-2024/static/css/main.c5781f58.css",
+    "main.css": "/stephanie-portfolio-2024/static/css/main.446fb8c5.css",
     "main.js": "/stephanie-portfolio-2024/static/js/main.8cd56a96.js",
     "static/js/453.aac68abc.chunk.js": "/stephanie-portfolio-2024/static/js/453.aac68abc.chunk.js",
     "index.html": "/stephanie-portfolio-2024/index.html",
-    "main.c5781f58.css.map": "/stephanie-portfolio-2024/static/css/main.c5781f58.css.map",
+    "main.446fb8c5.css.map": "/stephanie-portfolio-2024/static/css/main.446fb8c5.css.map",
     "main.8cd56a96.js.map": "/stephanie-portfolio-2024/static/js/main.8cd56a96.js.map",
     "453.aac68abc.chunk.js.map": "/stephanie-portfolio-2024/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5781f58.css",
+    "static/css/main.446fb8c5.css",
     "static/js/main.8cd56a96.js"
   ]
 }
