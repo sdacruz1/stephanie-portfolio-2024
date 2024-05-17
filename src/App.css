@@ -174,4 +174,31 @@ h2 {
   .readme_text {
     margin-right: 0;
   }
+
+  .vertical_scroller {
+    margin: 0;
+  }
+
+  .experience_top_holder {
+    flex-direction: column;
+  }
+
+  .experience_bubble {
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .experience_workplace {
+    margin: 1rem 0 0 0;
+  }
+
+  .experience_skills {
+    text-align: center;
+  }
+
+  .experience_point_list {
+    list-style-type: "-";
+    padding: .5rem;
+  }
 }

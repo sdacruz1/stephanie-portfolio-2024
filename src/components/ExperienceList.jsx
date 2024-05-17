@@ -10,7 +10,7 @@ const ExperienceBubble = ({ experience, onClick}) => {
 
   return (
     <div className={`experience_bubble`} onClick={handleClick} >
-      <div style={{display: "flex", justifyContent: "space-between"}}>
+      <div className='experience_top_holder' style={{display: "flex", justifyContent: "space-between"}}>
           <h3 className="experience_workplace"><b>{ experience.workplace }</b></h3>
           <p className="experience_duration"><i>{ experience.duration }</i></p>
       </div>

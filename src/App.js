@@ -106,7 +106,7 @@ function App() {
                 <ExperienceList experiences={experiences} onClick={handleExperienceClick} />
             </div>
             <div className="vertical_scroller">
-              <div className="image-container">
+              <div className="image-container hide-on-mobile">
                 {selectedExperience !== null && imageArrays[selectedExperience].map((image, index) => (
                   <img key={index} src={image} alt={`Website Examples ${index}`} />
                 ))}
