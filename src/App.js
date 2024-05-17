@@ -69,7 +69,7 @@ function App() {
           <p className="header-sub-text">Graduated from Brown University in 2023</p>
           <p className="header-sub-text">Currently based in Philadelphia, PA</p>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="50vw" height="100%" viewBox="0 0 100 100" fill="none" overflow="hidden"> 
+        <svg className='hide-on-mobile' xmlns="http://www.w3.org/2000/svg" width="50vw" height="100%" viewBox="0 0 100 100" fill="none" overflow="hidden"> 
           <circle cx="70" cy="70" r="80" style={{fill: "#93A4FC"}}/>
           <circle cx="90" cy="80" r="60" style={{fill: "#93B0FC"}}/>
           <circle cx="110" cy="90" r="40" style={{fill: "#93BDFC"}}/>
@@ -96,7 +96,7 @@ function App() {
               towards professional teams. My expertise centers on crafting compelling online presences for the teams and institutions behind
               groundbreaking projects. Occasionally, I also contribute to the development of these innovative programs.</p>
           </div>
-          <img src='./images/Me.JPG' alt='Myself sitting on a red chair in a sunflower field' style={{width: "20vw"}} />
+          <img className='hide-on-mobile' src='./images/Me.JPG' alt='Myself sitting on a red chair in a sunflower field' style={{width: "20vw"}} />
         </div>
 
         <h2>** Experience **</h2>

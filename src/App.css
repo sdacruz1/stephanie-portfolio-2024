@@ -9,6 +9,25 @@
   color: #61dafb;
 }
 
+/* Hide some elements on mobile */
+@media only screen and (max-width: 768px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .App {
+    text-align: center;
+  }
+
+  .header-text-box {
+    padding: 0;
+  }
+
+  .readme_text {
+    margin-right: 0;
+  }
+}
+
 /* MAIN APP */
 
 p {
