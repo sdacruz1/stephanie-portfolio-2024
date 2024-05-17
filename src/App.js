@@ -117,7 +117,7 @@ function App() {
         <div className='horizontal_scroller mobile_only'>
             {imageArrays.map((array, majorIndex) => (
               array.map((img, index) => (
-                <img key={index} src={img} alt={`Website Examples ${majorIndex}, ${index}`} />
+                <img className='mobile_image' key={index} src={img} alt={`Website Examples ${majorIndex}, ${index}`} />
               ))
             ))}
         </div>
