@@ -166,7 +166,7 @@ h2 {
 @media only screen and (max-width: 768px) {
 
   .mobile_only {
-    display: inline;
+    display:block;
   }
 
   .hide-on-mobile {
