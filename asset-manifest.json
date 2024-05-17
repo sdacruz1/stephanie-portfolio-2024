@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/stephanie-portfolio-2024/static/css/main.3fc34079.css",
-    "main.js": "/stephanie-portfolio-2024/static/js/main.b2eccc2a.js",
+    "main.css": "/stephanie-portfolio-2024/static/css/main.ae217486.css",
+    "main.js": "/stephanie-portfolio-2024/static/js/main.8d9552f1.js",
     "static/js/453.aac68abc.chunk.js": "/stephanie-portfolio-2024/static/js/453.aac68abc.chunk.js",
     "index.html": "/stephanie-portfolio-2024/index.html",
-    "main.3fc34079.css.map": "/stephanie-portfolio-2024/static/css/main.3fc34079.css.map",
-    "main.b2eccc2a.js.map": "/stephanie-portfolio-2024/static/js/main.b2eccc2a.js.map",
+    "main.ae217486.css.map": "/stephanie-portfolio-2024/static/css/main.ae217486.css.map",
+    "main.8d9552f1.js.map": "/stephanie-portfolio-2024/static/js/main.8d9552f1.js.map",
     "453.aac68abc.chunk.js.map": "/stephanie-portfolio-2024/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fc34079.css",
-    "static/js/main.b2eccc2a.js"
+    "static/css/main.ae217486.css",
+    "static/js/main.8d9552f1.js"
   ]
 }
