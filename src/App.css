@@ -154,16 +154,13 @@ h2 {
 }
 
 .horizontal_scroller {
-  display: flex;
-  flex-wrap: nowrap;
   width: 80vw;
   height: 40vh;
-  overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 .mobile_image {
-  height: 38vh;
-  display: inline-flex;
+  width: 80vw;
 }
 
 /* Hide some elements on mobile */
