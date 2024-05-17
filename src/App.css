@@ -155,10 +155,11 @@ h2 {
 
 .horizontal_scroller {
   width: 80vw;
+  height: 60vh;
   overflow-x: scroll;
 }
 
-.mobile_only {
+.mobile_image {
   height: 100%;
 }
 
