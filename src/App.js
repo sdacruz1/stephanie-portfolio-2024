@@ -117,7 +117,7 @@ function App() {
         <h2>** Languages and Skills **</h2>
         <SkillsList skills={skills} />
 
-        <p style={{width: "100%", textAlign: "right", margin: "1rem"}}>I made this website from scratch with <b>Node.js</b> and <b>Express</b>, and launched it using <b>Github Pages</b>.</p>
+        <p style={{width: "100%", textAlign: "right", margin: "1rem"}}>I made this website from scratch with <b>Node.js</b> and <b>React</b>, and launched it using <b>Github Pages</b>.</p>
       </div>
 
     </div>
