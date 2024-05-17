@@ -113,6 +113,14 @@ function App() {
               </div>
             </div>
         </div>
+        <h3 className='mobile_only' style={{color: "white"}}>** Image Gallery **</h3>
+        <div className='horizontal_scroller mobile_only'>
+            {imageArrays.map((array, majorIndex) => (
+              array.map((img, index) => (
+                <img key={index} src={img} alt={`Website Examples ${majorIndex}, ${index}`} />
+              ))
+            ))}
+        </div>
 
         <h2>** Languages and Skills **</h2>
         <SkillsList skills={skills} />

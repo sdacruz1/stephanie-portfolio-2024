@@ -149,8 +149,22 @@ h2 {
   color: #93A4FC;
 }
 
+.mobile_only {
+  display: none;
+}
+
+.horizontal_scroller {
+  width: 80vw;
+  overflow-y: scroll;
+}
+
 /* Hide some elements on mobile */
 @media only screen and (max-width: 768px) {
+
+  .mobile_only {
+    display: inline;
+  }
+
   .hide-on-mobile {
     display: none;
   }
